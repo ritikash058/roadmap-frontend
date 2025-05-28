@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Tags -->
+    <meta name="description" content="Roadmap Frontend Project for Beginner:Basic HTML website">
+    <meta name="title" content="Contact | Ritika Shrestha - Software Engineer">
+    <meta name="keywords" content="CV, Basic HTML website, Roadmap">
+    <meta name="author" content="Ritika Shrestha">
+    <title>Contact | Ritika Shrestha - Software Engineer</title>
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact | Ritika Shrestha - Software Engineer">
+    <meta property="og:description" content="Roadmap Frontend Project for Beginner:Basic HTML website">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ritikash058.github.io/Basic-HTML-Website/">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="../assets/favicon-32x32.png" alt="favicon" />
+        <h1>Ritika Shrestha</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./article.html">Articles</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form action="submit_form.php" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Message:</label>
+                        </td>
+                        <td>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </td>
+                    </tr>
+                </table>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Ritika Shrestha. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>

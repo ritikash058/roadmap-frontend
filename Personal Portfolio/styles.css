@@ -1,0 +1,141 @@
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+    --accent-color: #007acc;
+    --accent-hover-color: #005bb5;
+    --accent-active-color: #003f87;
+    --border-color: #333;
+    --border-color: #4d4c4c;
+    --font-family: "Cormorant Garamond", sans-serif;
+}
+
+[data-theme='dark'] {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --accent-color: #bb86fc;
+    --accent-hover-color: #9f63d6;
+    --accent-active-color: #7e3eb0;
+    
+}
+
+body {
+    font-family: var(--font-family), sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    padding: 0;
+}
+
+h1, h4 {
+    font-family: "Just Another Hand", cursive; 
+    padding-left: 2rem;
+}
+summary {
+    border-bottom: 1px solid var(--border-color);
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+}
+svg {
+    width: 1rem;
+}
+ul, p{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    border-bottom: 1px solid var(--border-color);
+    padding-left: 2rem;
+}
+p, a, h5, span {
+    padding-left: 1rem;
+}
+.work-section {
+    display: flex;
+    width: 100%;
+}
+
+.projects {
+    border: 1px solid var(--border-color);
+    flex: 1;
+    padding: 15px;
+}
+
+.education-list span {
+    display: block;
+}
+.navbar a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    width: 100%;
+    height: 15rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 25px;
+}
+footer {
+    color: #bdbcbc;
+}
+.review {
+    display: flex;
+}
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-section {
+        display:flex;
+        flex-direction: column;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .project-list{
+        width: 100%;
+    }
+    li, h4{
+        padding: 1rem;
+        text-align: center;
+    }
+    li:not(:last-child) {
+        border-bottom: 1px solid var(--border-color);
+    }
+    .review {
+        flex-direction: column;
+    }
+}

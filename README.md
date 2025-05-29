@@ -6,6 +6,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 [Single Page CV](https://roadmap.sh/projects/single-page-cv)
 [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 Click any of the images below to view the readme and live demo of the project.
 
 <p align="left">
@@ -18,3 +19,8 @@ Click any of the images below to view the readme and live demo of the project.
   </a>
 </p>
 
+<p align="left">
+  <a href='/Personal Portfolio/index.html'>
+    <img width="48%" src="./assets/images/personal-portfolio.png" alt="personal portfolio" />
+  </a>
+</p>

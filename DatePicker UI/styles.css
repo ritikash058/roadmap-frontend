@@ -1,0 +1,90 @@
+body {
+    font-family: 'Cactus Classical Serif', cusrsive;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    outline: none;
+    border: none;
+    border-right: 1px solid #333333;
+    padding: 10px 0px 
+}
+.date-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+.date-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-input {
+    padding: 0px 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.date-input i {
+    font-size: 1rem;
+    color: #333333;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+}
+.month-picker {
+    border-top: 1px solid #333333;
+}
+.month {
+    border-bottom: 1px solid #333333;
+}
+.month-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.month-header i {
+    font-size: 1.5rem;
+    color: #333333;
+}
+.weeks {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 0.5rem;
+    padding: 0px 10px;
+}
+.week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+/* Add right border to all spans except last child in each week */
+.week > span:not(:last-child) {
+    border-right: 1px solid #333333;
+}
+
+/* Add bottom border to all spans except in last week */
+.week:not(:last-child) > span {
+    border-bottom: 1px solid #333333;
+}
+
+/* Specifically target the last span in the last week to add right border */
+.week:last-child > span:last-child {
+    border-right: 1px solid #333333;
+}
+

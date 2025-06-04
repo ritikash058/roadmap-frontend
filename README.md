@@ -12,7 +12,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Date-Picker UI](https://roadmap.sh/projects/datepicker-ui)
 [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 [Image Grid](https://roadmap.sh/projects/image-grid)
-
+[Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 Click any of the images below to view the readme and live demo of the project.
 
 <p align="left">
@@ -49,5 +49,11 @@ Click any of the images below to view the readme and live demo of the project.
   </a>
   <a href='/Image Grid/index.html'>
     <img width="48%" src="./assets/images/image-grid.png" alt="image grid" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Tooltip UI/index.html'>
+    <img width="48%" src="./assets/images/tooltip-ui.png" alt="tooltip ui" />
   </a>
 </p>

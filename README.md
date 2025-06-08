@@ -14,6 +14,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Image Grid](https://roadmap.sh/projects/image-grid)
 [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 [Tabs](https://roadmap.sh/projects/simple-tabs)
+[Cookie Consent](https://roadmap.sh/projects/cookie-consent)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -60,5 +61,10 @@ Click any of the images below to view the readme and live demo of the project.
   </a>
   <a href='/Tabs/index.html'>
     <img width="48%" src="./assets/images/tabs.png" alt="tabs" />
+  </a>
+</p>
+<p align="left">
+  <a href='/Cookie Consent/index.html'>
+    <img width="48%" src="./assets/images/cookie-consent.png" alt="cookie consent" />
   </a>
 </p>

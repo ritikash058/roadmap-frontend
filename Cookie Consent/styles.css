@@ -1,0 +1,42 @@
+
+.cookie-consent .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #818080;
+    box-shadow: 0 2px 4px rgba(126, 126, 126, 0.5);
+    z-index: 1;
+    
+}
+#accept-button {
+    background-color: #3eda56;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#reject-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.cookie-consent:not(.hidden) ~ main > header {
+    opacity: 70%;
+}
+.cookie-consent .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}

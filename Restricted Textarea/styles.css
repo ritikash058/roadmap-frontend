@@ -1,0 +1,27 @@
+.restricted-area {
+    position: relative;
+    width: 500px;
+    max-height: 150px;
+}
+textarea {
+    width: 500px;
+    height: 150px;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    resize: none;
+}
+
+textarea[aria-invalid="true"] {
+    border: 2px solid rgb(244, 27, 27);
+    color: rgb(244, 27, 27);
+}
+#countWord {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    bottom: 0;  
+}
+

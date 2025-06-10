@@ -16,6 +16,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Tabs](https://roadmap.sh/projects/simple-tabs)
 [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
 [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
+[Accordion](https://roadmap.sh/projects/accordion)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -70,5 +71,11 @@ Click any of the images below to view the readme and live demo of the project.
   </a>
   <a href='/Restricted Textarea/index.html'>
     <img width="48%" src="./assets/images/restricted-textarea.png" alt="restricted textarea" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='/Accordion/index.html'>
+    <img width="48%" src="./assets/images/accordion.png" alt="accordion" />
   </a>
 </p>

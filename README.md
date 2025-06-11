@@ -17,6 +17,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
 [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
 [Accordion](https://roadmap.sh/projects/accordion)
+[Age Calculator](https://roadmap.sh/projects/age-calculator)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -77,5 +78,8 @@ Click any of the images below to view the readme and live demo of the project.
 <p align="left">
   <a href='/Accordion/index.html'>
     <img width="48%" src="./assets/images/accordion.png" alt="accordion" />
+  </a>
+  <a href='/Age Calculator/index.html'>
+    <img width="48%" src="./assets/images/age-calculator.png" alt="age calculator" />
   </a>
 </p>

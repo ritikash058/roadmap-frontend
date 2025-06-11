@@ -1,0 +1,16 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "A modern age calculator using Luxon and Flatpickr",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "luxon": "^3.4.0",
+    "js-datepicker": "^4.1.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

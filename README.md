@@ -18,6 +18,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
 [Accordion](https://roadmap.sh/projects/accordion)
 [Age Calculator](https://roadmap.sh/projects/age-calculator)
+[Flashcards](https://roadmap.sh/projects/flash-cards)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -83,3 +84,10 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/age-calculator.png" alt="age calculator" />
   </a>
 </p>
+
+<p align="left">
+  <a href='/Flashcards/index.html'>
+    <img width="48%" src="./assets/images/flashcards.png" alt="flashcards" />
+  </a>
+</p>
+

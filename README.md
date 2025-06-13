@@ -19,6 +19,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Accordion](https://roadmap.sh/projects/accordion)
 [Age Calculator](https://roadmap.sh/projects/age-calculator)
 [Flashcards](https://roadmap.sh/projects/flash-cards)
+[Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -88,6 +89,9 @@ Click any of the images below to view the readme and live demo of the project.
 <p align="left">
   <a href='/Flashcards/index.html'>
     <img width="48%" src="./assets/images/flashcards.png" alt="flashcards" />
+  </a>
+  <a href='/Custom Dropdown/index.html'>
+    <img width="48%" src="./assets/images/custom-dropdown.png" alt="custom dropdown" />
   </a>
 </p>
 

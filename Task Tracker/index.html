@@ -23,24 +23,18 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Task Tracker</h1>
-        <div class="task-container">
+    <main class="container">
+        <section class="task-container">
+            <h3>Task Tracker</h3>
             <div class="task-input">
-                <input type="text" id="task-input" placeholder="Add a new task">
-                <button id="add-task">Add Task</button>
+                <input type="text" id="task-input" placeholder="Start writing and press enter to create task">
+                <button id="add-task">↵</button>
             </div>
-            <div class="task-list">
-                <ul id="task-list">
-                    <li>
-                        <input type="checkbox">
-                        <span>Task 1</span>
-                        <button class="delete-task">Delete</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+            <aside id="task-list">
+                <!-- task lists -->
+            </aside>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

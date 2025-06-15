@@ -20,6 +20,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Age Calculator](https://roadmap.sh/projects/age-calculator)
 [Flashcards](https://roadmap.sh/projects/flash-cards)
 [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
+[Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -94,4 +95,11 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/custom-dropdown.png" alt="custom dropdown" />
   </a>
 </p>
+
+<p align="left">
+  <a href='/Task Tracker/index.html'>
+    <img width="48%" src="./assets/images/task-tracker.png" alt="task tracker" />
+  </a>
+</p>
+
 

@@ -21,6 +21,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Flashcards](https://roadmap.sh/projects/flash-cards)
 [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
+[Github Random Repo](https://roadmap.sh/projects/github-random-repo)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -99,6 +100,9 @@ Click any of the images below to view the readme and live demo of the project.
 <p align="left">
   <a href='/Task Tracker/index.html'>
     <img width="48%" src="./assets/images/task-tracker.png" alt="task tracker" />
+  </a>
+  <a href='/Github Random Repo/index.html'>
+    <img width="48%" src="./assets/images/github-repo.png" alt="github random repo" />
   </a>
 </p>
 

@@ -2,18 +2,52 @@ body {
     width: 80%;
     margin: auto;
 }
-section {
+.container {
     border: 1.5px solid #4a4a4a;
-    padding: 20px;
     border-radius: 10px;
     height: 80svh;
     position: relative;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+.add-subreddit-column {
+    width: 50%;
+    padding: 10px;
 }
 .add-subreddit {
     cursor: pointer;
     border: 1.5px solid #4a4a4a;
     padding: 2px 4px;
     border-radius: 50%;
+    font-size: 1rem;
+    color: #4a4a4a;
+    transition: all 0.3s;
+}
+.add-subreddit:hover {
+    background-color: #4a4a4a;
+    color: white;
+}
+.subreddits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    border-right:1px solid #4a4a4a;
+    max-width: 300px;
+}
+.subreddit-lane {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#results {
+    padding: 10px;
+    border-bottom: 1.5px solid #4a4a4a;
 }
 .popup {
     border: 1.5px solid #4a4a4a;
@@ -22,12 +56,14 @@ section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 250px;
+    max-width: 300px;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    display: none;
+    background-color: #fff;
 }
 input[type="text"] {
     outline: none;
@@ -43,6 +79,154 @@ button {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* New styles for loading and error states */
+.loading {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.error-message {
+    display: none;
+    padding: 1rem;
+    background-color: #ffebee;
+    border-radius: 4px;
+    border: 1px solid #ffcdd2;
+    color: #c62828;
+    margin: 1rem 0;
+}
+
+.subreddit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subreddit-header h3 {
+    margin: 0;
+    color: #333;
+}
+
+.actions-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.dropdown-toggle:hover {
+    color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-toggle:focus + .dropdown-content,
+.dropdown-toggle:active + .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    transition: all 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.dropdown-item i {
+    font-size: 0.9rem;
+}
+
+.refresh-button {
+    display: none;
+}
+
+.posts-container {
+    padding: 1rem;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h4 {
+    margin: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.post-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+section , div{
+    margin: 0;
+    padding: 0;
 }
 
 

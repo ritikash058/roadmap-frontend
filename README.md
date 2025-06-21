@@ -22,6 +22,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
+[Reddit Client](https://roadmap.sh/projects/reddit-client)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -105,5 +106,12 @@ Click any of the images below to view the readme and live demo of the project.
     <img width="48%" src="./assets/images/github-repo.png" alt="github random repo" />
   </a>
 </p>
+
+<p align="left">
+  <a href='/Reddit Client/index.html'>
+    <img width="48%" src="./assets/images/reddit client.png" alt="reddit client" />
+  </a>
+</p>
+
 
 

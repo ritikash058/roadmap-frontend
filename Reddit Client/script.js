@@ -44,7 +44,7 @@ class RedditClient {
     async fetchSubreddit(subreddit) {
         try {
             this.showLoading();
-            const response = await fetch(`https://www.reddit.com/r/${subreddit}.json?limit=5`);
+            const response = await fetch(`https://www.reddit.com/r/${subreddit}.json?limit=3`);
             
             if (!response.ok) {
                 throw new Error(`Failed to fetch subreddit: ${response.statusText}`);
@@ -110,14 +110,18 @@ class RedditClient {
         });
         subredditContainer.appendChild(postsContainer);
     
-        // Add the lane to the wrapper
-        const wrapper = this.resultsContainer.querySelector('.subreddits-wrapper');
-        if (wrapper) {
-            wrapper.insertBefore(subredditContainer, wrapper.firstChild);
-        } else {
-            this.resultsContainer.appendChild(subredditContainer);
+        // In the displayResults method
+        let wrapper = this.resultsContainer.querySelector('.subreddits-wrapper');
+        if (!wrapper) {
+            // Create a new wrapper if it doesn't exist
+            wrapper = document.createElement("div");
+            wrapper.className = "subreddits-wrapper";
+            this.resultsContainer.appendChild(wrapper);
         }
-    
+
+        // Add the subreddit lane to the wrapper
+        wrapper.appendChild(subredditContainer);
+
         // Save the subreddit to local storage
         this.saveSubreddit(subreddit);
     }

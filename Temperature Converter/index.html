@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO tags -->
+    <meta name="description" content="Roadmap Frontend Project for Intermediate:Temperature Converter">
+    <meta name="title" content="Temperature Converter | Ritika Shrestha - Software Engineer">
+    <meta name="keywords" content="Temperature Converter, Roadmap">
+    <meta name="author" content="Ritika Shrestha">
+    <title>Temperature Converter | Ritika Shrestha - Software Engineer</title>
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Temperature Converter | Ritika Shrestha - Software Engineer">
+    <meta property="og:description" content="Roadmap Frontend Project for Intermediate:Temperature Converter">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ritikash058.github.io/Temperature-Converter/">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/favicon.ico">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head>
+<body>
+    <main>
+        <h3>Temperature Converter</h3>
+        <p>Enter a temperature, select units, and submit.</p>
+        <section class="container">
+            <div class="temperature-container">
+                <input type="number" id="from">
+                <div class="dropdown">
+                    <button class="dropdown-button">From Unit<span><i class="fa fa-chevron-down"></i></span></button>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>Celsius</li>
+                            <li>Fahrenheit</li>
+                            <li>Kelvin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="temperature-container">
+                <div class="dropdown">
+                    <button class="dropdown-button-to" id="to">To Unit<span><i class="fa fa-chevron-down"></i></span></button>
+                    <div class="dropdown-content-to">
+                        <ul>
+                            <li>Celsius</li>
+                            <li>Fahrenheit</li>
+                            <li>Kelvin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button id="convert">Convert</button>
+            <p id="outputTemp"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

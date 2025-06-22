@@ -23,6 +23,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 [Github Random Repo](https://roadmap.sh/projects/github-random-repo)
 [Reddit Client](https://roadmap.sh/projects/reddit-client)
+[Temperature Converter](https://roadmap.sh/projects/temperature-converter)
 
 Click any of the images below to view the readme and live demo of the project.
 
@@ -110,6 +111,9 @@ Click any of the images below to view the readme and live demo of the project.
 <p align="left">
   <a href='/Reddit Client/index.html'>
     <img width="48%" src="./assets/images/reddit client.png" alt="reddit client" />
+  </a>
+  <a href='/Temperature Converter/index.html'>
+    <img width="48%" src="./assets/images/temperature-converter.png" alt="temperature converter" />
   </a>
 </p>
 

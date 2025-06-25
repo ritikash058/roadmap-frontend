@@ -125,21 +125,21 @@ export default function Home() {
           <button
             onClick={handleStart}
             disabled={isRunning || isPaused}
-            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
+            className="bg-green-200 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
           >
             Start
           </button>
           <button
             onClick={handlePause}
             disabled={!isRunning || isPaused}
-            className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
+            className="bg-yellow-200 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
           >
             Pause
           </button>
           <button
             onClick={handleResume}
             disabled={!isRunning || !isPaused}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
+            className="bg-blue-200 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg disabled:opacity-50"
           >
             Resume
           </button>
@@ -148,7 +148,7 @@ export default function Home() {
         <div className="flex justify-center gap-4 mb-8">
           <button
             onClick={handleReset}
-            className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg"
+            className="bg-red-200 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg"
           >
             Reset
           </button>
